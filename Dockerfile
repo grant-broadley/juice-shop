@@ -35,3 +35,5 @@ COPY --from=installer --chown=65532:0 /juice-shop .
 USER 65532
 EXPOSE 3000
 CMD ["/juice-shop/build/app.js"]
+
+# blah test
